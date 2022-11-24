@@ -221,7 +221,7 @@ interface IERC20 {
 }
 
 
-// File: contracts\open-zeppelin-contracts\Address.sol
+// File: contracts\open-zeppelin-contracts\IUniswapV2Factory.sol
 
 interface IUniswapV2Factory {
 
@@ -246,7 +246,7 @@ interface IUniswapV2Factory {
 }
 
 
-// File: contracts\open-zeppelin-contracts\Address.sol
+// File: contracts\open-zeppelin-contracts\IUniswapV2Pair.sol
 
 interface IUniswapV2Pair {
 
@@ -311,7 +311,7 @@ interface IUniswapV2Pair {
 }
 
 
-// File: contracts\open-zeppelin-contracts\Address.sol
+// File: contracts\open-zeppelin-contracts\IUniswapV2Router01.sol
 
 interface IUniswapV2Router01 {
 
@@ -356,7 +356,7 @@ interface IUniswapV2Router01 {
 }
 
 
-// File: contracts\open-zeppelin-contracts\Address.sol
+// File: contracts\open-zeppelin-contracts\IUniswapV2Router02.sol
 
 interface IUniswapV2Router02 is IUniswapV2Router01 {
 
@@ -373,7 +373,7 @@ interface IUniswapV2Router02 is IUniswapV2Router01 {
 }
 
 
-// File: contracts\open-zeppelin-contracts\Address.sol
+// File: contracts\open-zeppelin-contracts\Name.sol
 
 contract Name is Context, IERC20, Ownable {
 
