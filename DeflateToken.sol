@@ -522,7 +522,7 @@ contract Name is Context, IERC20, Ownable {
     }
 
     function excludeFromReward(address account) public onlyOwner() {
-        require(account != 0x05fF2B0DB69458A0750badebc4f9e13aDd608C7F, 'We can not exclude Pancake router.');
+        require(account != 0x05fF2B0DB69458A0750badebc4f9e13aDd608C7F, "We can not exclude Pancake router.");
         require(!_isExcluded[account], "Account is already excluded");
         if (_rOwned[account] > 0) {
             _tOwned[account] = tokenFromReflection(_rOwned[account]);
